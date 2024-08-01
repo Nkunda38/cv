@@ -1,0 +1,64 @@
+body {
+    background-image: url("https://images.pexels.com/photos/4048750/pexels-photo-4048750.jpeg?auto=compress&cs=tinysrgb&w=400");
+    background-size: cover;
+    font-family:  "Segoe UI" "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 60px;
+  }
+  
+  h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  #increment-btn:hover {
+    background-color: black;
+    color: white;
+    transition: background-color 1s;
+  }
+  
+  #increment-btn {
+    background: darkred;
+    border: 1px solid whitesmoke;
+    box-shadow: 2px 2px 2px 0px greenyellow;
+  }
+  
+  #save-btn {
+    background: rgb(29, 27, 71);
+    border: 1px solid whitesmoke;
+    box-shadow: 2px 2px 2px 2px red;
+  }
+  #save-btn:hover {
+    background-color: white;
+    color: black;
+    transition: background-color 1s;
+  }
+  p {
+    font-size: larger;
+    color:black;
+    font-size: 27px;
+  }
+  #container {
+    background-color: aliceblue;
+    border: 3px solid black;
+  }
+  
