@@ -201,53 +201,7 @@ span {
 /**********************************************************************/
 /*        CV                                                       */
 /***********************************************************************/
-#cv-grid {
-  padding: 0px 20px;
-}
 
-@media screen and (min-width: 700px) {
-  #cv-grid {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-  }
-
-  #cv-title {
-    grid-column: 1 / 6;
-  }
-  #cv-contact {
-    grid-column: 6 / 9;
-    align-self: center;
-  }
-
-  #cv-profile,
-  #cv-skills,
-  #cv-work,
-  #cv-education {
-    grid-column: 1 / 3;
-  }
-
-  #cv-profile-info,
-  #cv-skills-info,
-  #cv-work-info,
-  #cv-education-info {
-    grid-column: 3 / 9;
-  }
-
-  #cv-grid hr {
-    grid-column: 1 / 9;
-    width: 95%;
-    background-color: #004279;
-  }
-}
-
-.work-title-left {
-  display: inline-block;
-  width: 74%;
-}
-.work-title-right {
-  display: inline-block;
-  width: 24%;
-}
 /**********************************************************************/
 /*        CONTACT                                                      */
 /***********************************************************************/
@@ -294,8 +248,8 @@ span {
   box-shadow: none;
 }
 h1 {
-  color: rgb(2, 251, 6);
-  background-color: black;
+  color:navy;
+  /*background-color: black;*/
   margin: 0px 0px 0px 0px;
   text-align: center;
   padding: 10px;
