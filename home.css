@@ -63,6 +63,7 @@ body {
   grid-template-columns: 1fr;
   padding: 0 10%;
   background-size: cover;
+  z-index: -1;
 }
 /*
 @media screen and (min-width: 600px){
