@@ -24,6 +24,13 @@ body {
   text-decoration: none;
   font-weight: 600;
 }
+.logo-image img{
+  
+  width: 50px;
+  height: 50px;
+  margin: left 10px; ;
+}
+
 .log ::before{
   content:"";
   width: 100%;
@@ -41,12 +48,16 @@ body {
   text-decoration: none;
   font-weight: 500;
   margin-left: 35px;
-  transition: 4s;
+  transition: 1s;
+  translate: transform;
 }
 .navbar a:hover,
 .navbar a.active {
   color: #00abf0;
+  transform: scale(1.1);
 }
+ 
+
 .home {
   display: grid;
   grid-template-columns: 1fr;

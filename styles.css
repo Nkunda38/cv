@@ -99,6 +99,15 @@ navbar
   font-size: x-large;
   font-weight: bold;
 }
+
+.logo-image img{
+  
+  width: 60px;
+  height: 50px;
+
+  
+  
+}
 span {
   color: red;
   font-style: italic;
@@ -109,8 +118,9 @@ span {
 /*navbar*/
 .navbar {
   height: 60px;
-  background-color: navy;
+  background-color: #0e152f;
   color: white;
+  transition: color 0.3s ease, transform 0.3s ease
 }
 .menu-container {
   display: flex;
@@ -215,7 +225,7 @@ span {
 .form-question label {
   display: block;
   margin-bottom: 5px;
-  background-color: rgb(27, 186, 32);
+  background-color: #00abf0;
 }
 .required label::after {
   content: " *";
@@ -256,4 +266,12 @@ h1 {
 }
 p {
   text-align: center;
+}
+footer {
+  text-align: center;
+  position:relative;
+  width: 100%;
+  bottom: 0;
+  background-color: #004279;
+  color: #fff;
 }
