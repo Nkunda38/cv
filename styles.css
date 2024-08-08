@@ -225,7 +225,7 @@ span {
 .form-question label {
   display: block;
   margin-bottom: 5px;
-  background-color: #00abf0;
+  
 }
 .required label::after {
   content: " *";
@@ -274,4 +274,5 @@ footer {
   bottom: 0;
   background-color: #004279;
   color: #fff;
+  height: auto;
 }
