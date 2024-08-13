@@ -11,7 +11,7 @@ const run = async()=>{
     ])
 
    const face1 = document.getElementById("face")
-    //const face1 = await faceapi.fetchImage("https://c8.alamy.com/comp/D7K0MJ/outdoor-close-up-portrait-of-a-cute-young-black-girl-smiling-african-D7K0MJ.jpg")
+    //const face1 = await faceapi.fetchImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZIq7DaEGLwfPl9H9z2z4BmGtC-07F_fJZhw&s")
     //we grab the image ,and hand it to detectAllFaces method
     let faceAIData = await faceapi.detectAllFaces(face1).withFaceLandmarks().withFaceDescriptors().withAgeAndGender()
     // console.log(faceAIData )
